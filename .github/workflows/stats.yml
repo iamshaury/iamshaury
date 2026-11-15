@@ -1,0 +1,58 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # twice a day
+  workflow_dispatch:         # lets you run it by hand
+  push:
+    branches: [main]
+    paths: [".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&include_all_commits=true&bg_color=00000000&hide_border=true&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff&title_color=58a6ff
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&include_all_commits=true&bg_color=00000000&hide_border=true&text_color=59636e&icon_color=0969da&ring_color=0969da&title_color=0969da
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=00000000&hide_border=true&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff&title_color=58a6ff
+          path: profile/langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=00000000&hide_border=true&text_color=59636e&icon_color=0969da&ring_color=0969da&title_color=0969da
+          path: profile/langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update profile stats" || exit 0
+          git push
