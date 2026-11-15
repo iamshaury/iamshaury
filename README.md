@@ -1,77 +1,54 @@
-# Hi there, I'm Shaury Chaudhary 👋 🚀
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/2f57377d-49b3-49cb-ab9d-6b85c1765f79" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/38f10d0d-5741-44dc-9263-e4a85609381d" />
+  <img src="https://github.com/user-attachments/assets/2f57377d-49b3-49cb-ab9d-6b85c1765f79" width="100%" alt="Shaury Chaudhary — building where machine learning meets mobile" />
+</picture>
 
-<div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;AI+%2F+ML+Enthusiast;React+Native+Specialist;Building+Scalable+Solutions" alt="Typing Animation" />
-</div>
+I'm a Computer Science student specialising in AI and machine learning. I like the space between a solid backend and an app that feels effortless, and lately that means running ML models directly on phones.
 
-### 👨‍💻 About Me
+[Portfolio](https://shaury.me/) &nbsp;/&nbsp; [LinkedIn](https://linkedin.com/in/shaury-chaudhary) <!-- &nbsp;/&nbsp; [X](https://x.com/YOUR_HANDLE) -->
 
-I am a **Computer Science Engineering student** specializing in **AI & Machine Learning**. I bridge the gap between robust backend architectures and intuitive mobile experiences. Currently, I'm focused on integrating on-device ML into mobile apps and mastering distributed systems.
+<img src="https://github.com/user-attachments/assets/5770fd9f-442d-40c0-90c1-fe0419a31513" width="100%" alt="" />
 
-- 🛠️ **Current Focus:** Engineering high-performance mobile systems and AI-powered document processing tools.
-- 🧠 **Areas of Expertise:** Data Structures & Algorithms (DP focus), Mobile Vision (TF Lite), and Cloud Infrastructure (AWS).
-- ⚡ **Strategy:** I apply the same tactical depth to my code as I do to my chess games.
-- 🎯 **Goal:** Building robust Java/Spring Boot architectures leveraging Kafka for real-time data processing.
+### Right now
 
----
+- Putting on-device ML into mobile apps with TensorFlow Lite
+- Learning Java, Spring Boot and Kafka for real-time backends
+- Practising DSA, mostly dynamic programming
+- Playing chess, which is where I learned to think a few moves ahead
 
-### 🚀 Technical Contributions
+### Things I've built
 
-| Role / Focus | Tech Stack | Impact |
-| :--- | :--- | :--- |
-| **Mobile ML** | React Native, TF Lite | Developed an on-device diagnosis system for plant diseases using computer vision. |
-| **FinTech Dev** | React Native, Firebase | Engineered an expense management system with OCR receipt scanning and real-time syncing. |
-| **AI Automation** | Node.js, React, AI | Built an automated system for parsing and categorizing academic papers using AI. |
+**Plant disease detector** — snap a leaf, get a diagnosis, fully offline.
+<sub>`React Native` `TensorFlow Lite`</sub>
 
----
+**Expense tracker** — scans receipts with OCR and syncs across devices in real time.
+<sub>`React Native` `Firebase`</sub>
 
-### 📊 GitHub Insights
+**Paper sorter** — reads academic papers and files them into categories automatically.
+<sub>`Node.js` `React` `AI`</sub>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamshaury&show_icons=true&theme=tokyonight&count_private=true" alt="Shaury's GitHub Stats" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamshaury&layout=compact&theme=tokyonight" alt="Top Languages" height="180px" />
-</div>
+<img src="https://github.com/user-attachments/assets/5770fd9f-442d-40c0-90c1-fe0419a31513" width="100%" alt="" />
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamshaury&theme=tokyonight" alt="GitHub Streak" />
-</div>
+### Tools I use
 
----
+<img src="https://skillicons.dev/icons?i=ts,js,java,cpp,py,react,nextjs,tailwind,nodejs,spring,kafka,mongodb,firebase,aws,tensorflow,git&perline=8&theme=dark" width="420" alt="TypeScript, JavaScript, Java, C++, Python, React, Next.js, Tailwind, Node.js, Spring, Kafka, MongoDB, Firebase, AWS, TensorFlow, Git" />
 
-### 🛠️ Technologies & Tools
+### Activity
 
-<div align="center">
-
-**Languages & Core**
-<br>
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-**Frontend & Mobile**
-<br>
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-
-**Backend & Infrastructure**
-<br>
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-</div>
-
----
-
-### 🤝 Connect with Me
-
-<div align="center">
-<a href="https://shaury.me/"><img src="https://img.shields.io/badge/Portfolio-Personal-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/shaury-chaudhary"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://twitter.com/YOUR_TWITTER_URL"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-</div>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iamshaury&label=PROFILE+VIEWS&color=0e75b3&style=flat-square" alt="Views" />
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img src="./profile/stats-dark.svg" height="150" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/langs-light.svg" />
+    <img src="./profile/langs-dark.svg" height="150" alt="Most used languages" />
+  </picture>
 </p>
+
+<img src="https://github.com/user-attachments/assets/5770fd9f-442d-40c0-90c1-fe0419a31513" width="100%" alt="" />
+
+<p align="right"><img src="https://komarev.com/ghpvc/?username=iamshaury&label=views&color=58a6ff&style=flat-square" alt="profile views" /></p>
